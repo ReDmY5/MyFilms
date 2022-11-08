@@ -768,11 +768,16 @@ nav .menu-btn{
 
 @media(max-height:400px){
 
+  .pered-prokrutkoy {
+    padding-top: 20px;
+
+}
+
     .text-verh {
         margin: 0px 300px;
         width: 400px;
         font-weight: 400;
-        letter-spacing: 2px;
+        letter-spacing: 5px;
         font-size: 2rem;
       }
 
@@ -782,13 +787,15 @@ nav .menu-btn{
         width: 400px;
         padding-left: 0px;
         font-weight: 400;
-        letter-spacing: 2px;
-        font-size: 0.5rem;
-        margin: -120px 300px;
+        letter-spacing: 1px;
+        font-size: 0.6rem;
+        margin: -140px 300px;
       }
 
       .featured-button{
-        margin: 110px;
+        margin: 140px;
+        width: 125px;
+        height: 50px;
       }
 
       .featured-title {
