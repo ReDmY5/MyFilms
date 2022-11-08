@@ -763,3 +763,72 @@ nav .menu-btn{
         height: 40px;
     }
 }
+
+
+
+@media(max-height:400px){
+
+    .text-verh {
+        margin: 0px 300px;
+        width: 400px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-size: 2rem;
+      }
+
+    .featured-desc {
+        position: relative;
+        z-index: 3;
+        width: 400px;
+        padding-left: 0px;
+        font-weight: 400;
+        letter-spacing: 2px;
+        font-size: 0.5rem;
+        margin: -120px 300px;
+      }
+
+      .featured-button{
+        margin: 110px;
+      }
+
+      .featured-title {
+        position: relative;
+        z-index: 3;
+        width: 250px;
+        height: 100px;
+        text-shadow: 2px 2px 10px black;
+      }
+
+      .nazva-filmy { 
+        margin-bottom: 20px;
+        
+     }
+  
+      .nazva-filmy strong {
+        font-size: 2.5rem;
+        width: 100px; 
+        height: 100px;
+        color: hsl(57, 97%, 45%); 
+    }
+    
+    .container { 
+        max-width: 400px;
+        padding-inline: 15px;
+        margin-inline: auto;
+        padding-bottom: 0px;
+        
+     }
+    
+    .videosyoutube {
+        overflow: hidden;
+        position: relative;
+        z-index: 10;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        margin: -100px 20px 10px 170px;
+        width: 500px;
+        height: 250px;
+        
+    }
+    
+}
